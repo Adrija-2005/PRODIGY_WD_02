@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.Stopwatch{
+    background-color: black;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+    .timerdisplay {
+        font-size: 60px; /* Large font size */
+        font-weight: 600; /* Bold text */
+        font-family: 'Courier New', Courier, monospace; /* Monospace font ensures consistent character widths */
+        width: 20ch; /* Wide enough to fit "00 : 00 : 00" */
+        text-align: center; /* Center align the text */
+        overflow: hidden; /* Prevent text overflow */
+        white-space: nowrap; /* Prevent text wrapping */
+        padding: 10px; /* Optional: Add padding for visual balance */
+        border: 2px solid white; /* Optional: Add a border for clarity */
+        border-radius: 10px; /* Optional: Rounded corners */
+    }
+    
+    
+
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    font-size:20px;
+    background-color: none;
+    border: none;
+    color: white;
+    background-color: var(--clr);
+    padding: 12px 24px;
+    margin-inline:12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
