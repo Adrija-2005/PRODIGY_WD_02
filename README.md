@@ -2,9 +2,10 @@ This is a simple stopwatch application created using HTML, CSS, and JavaScript. 
 
 Features:
 
-1.Start, Stop, and Reset functionality.
+1.Start, Stop, and Reset and display of lap times functionality.
 2.Clean and responsive user interface.
 3.Accurate time tracking up to milliseconds.
 
 Here’s how the Stopwatch Application looks:
-![image](https://github.com/user-attachments/assets/2d72f839-a2fe-43fe-8200-0a6f08bd5d15)
+![image](https://github.com/user-attachments/assets/cdabb0fd-b8e7-4b32-9b05-aa14133723e4)
+
